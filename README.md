@@ -6,7 +6,7 @@
 
 选取7张作为测试集    **测试集背景信息应该要多样**
 
-![image-20201127135113979](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201127135113979.png)
+![原图](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/1.png)
 
 使用YOLT的思想，将训练集/测试集的每一张图都裁剪成608x608的小图，命名格式：“原图名称  _ 左上角坐标 _ 图像大小 _ 原图大小"
 
@@ -14,7 +14,7 @@
 
 YOLT论文：https://arxiv.org/abs/1805.09512
 
-![image-20201127135630303](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201127135630303.png)
+![裁剪后的小图](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/2.png)
 
 对训练集/测试集裁剪后的小图做标注，得到xml文件，转成yolo格式  
 
@@ -42,7 +42,7 @@ albumentations : https://github.com/zk2ly/How-to-use-Albumentations
 
 ## 效果
 
-![image-20201127141722869](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20201127141722869.png)
+![效果图样例](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/3.png)
 
 ## To do
 
