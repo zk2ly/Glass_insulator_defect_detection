@@ -30,25 +30,30 @@ YOLT论文：https://arxiv.org/abs/1805.09512
 
 albumentations : https://github.com/zk2ly/How-to-use-Albumentations
 
+
 ## 训练
 
 使用darknet版yolov4训练 :  https://github.com/AlexeyAB/darknet
 
 两块2080训练  batch=8  sub=4  再预训练模型上跑8000个epoch  准确率达到97%
 
+
 ## 测试
 
 把一张图裁剪成608x608的若干小图依次放入网络进行检测，最终检测框的坐标加上图片所属左上角的坐标得到在原图中的绝对坐标，然后对原图上的所有框做一个nms，得到最终的检测图。
 
+
 ## 效果
 
 ![效果图样例](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/3.png)
+
 
 ## To do
 
 - [ ] 图片串行输入改为并行，提升速度
 - [ ] 检测时提高网络的分辨率，提升精度
 - [ ] 检测时裁剪为比608x608更大的小图，减少小图数目，提高速度
+
 
 ## 经验总结
 
