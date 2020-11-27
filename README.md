@@ -48,6 +48,11 @@ albumentations : https://github.com/zk2ly/How-to-use-Albumentations
 ![效果图样例](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/3.png)
 
 
+## 泛化
+在“数字电网开发者大会——小样本输电线路玻璃绝缘子自爆程度识别”训练集上的泛化效果
+![泛化效果图样例](https://github.com/zk2ly/Glass_insulator_defect_detection/blob/main/README_IMAGES/4.png)
+
+
 ## To do
 
 - [ ] 图片串行输入改为并行，提升速度
