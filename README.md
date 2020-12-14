@@ -42,7 +42,7 @@ albumentations : https://github.com/zk2ly/How-to-use-Albumentations
 
 使用darknet版yolov4训练 :  https://github.com/AlexeyAB/darknet
 
-两块2080训练  先用k-means聚类 网络输入608x608 batch=8  sub=4  再预训练模型上跑8000个epoch  准确率达到97%
+两块2080训练  先用k-means聚类 网络输入416x416 batch=16  sub=8  再预训练模型上跑8000个epoch  准确率达到97%
 
 
 ## 测试
