@@ -63,7 +63,7 @@ albumentations : https://github.com/zk2ly/How-to-use-Albumentations
 
 ## To do
 
-- [-] 图片串行输入改为并行，提升速度
+- [x] 图片串行输入改为并行，提升速度
 - [ ] 检测时提高网络的分辨率，提升精度
 - [ ] 检测时裁剪为比608x608更大的小图，减少小图数目，提高速度
 
