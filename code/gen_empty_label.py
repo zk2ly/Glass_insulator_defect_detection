@@ -7,3 +7,4 @@ for img in imgs:
     if not os.path.exists(label_path):
         f = open(label_path, 'w')
         f.close()
+        
